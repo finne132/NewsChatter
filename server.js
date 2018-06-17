@@ -7,7 +7,7 @@ var bodyParser = require("body-parser");
 // Set up port for Heroku deployment and localhost testing 
 var PORT = process.env.PORT || 8080;
 
-// Require local routes
+// Require local routes folder - includes handlebars stuff
 var routes = require("./routes");
 
 // Declare express
