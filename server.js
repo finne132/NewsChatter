@@ -10,7 +10,7 @@ var bodyParser = require("body-parser");
 var PORT = process.env.PORT || 8080;
 
 // Require local routes folder - includes handlebars stuff
-var routes = require("./routes");
+var routes = require("/routes");
 
 // Declare express
 var app = express();

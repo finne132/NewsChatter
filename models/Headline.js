@@ -21,9 +21,6 @@ var headlineSchema = new Schema({
     type: String,
     required: true
   },
-  photourl: {
-    type:String
-  },
   date: {
     type: Date,
     default: Date.now
