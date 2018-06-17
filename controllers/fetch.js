@@ -1,7 +1,6 @@
 "use strict"; 
 
 // fetch controller
-
 // require the database models
 var db = require("../models");
 
@@ -23,13 +22,13 @@ module.exports = {
         }
         else {
           res.json({
-            message: "Scraping... Adding " + dbHeadline.length + " new articles to the database"
+            message: "Success: " + dbHeadline.length + " articles were added to the database"
           });
         }
       })
       .catch(function(err) {
         res.json({
-          message: "Scraping completed"
+          message: "Search complete"
         });
       });
   }
