@@ -2,7 +2,6 @@
 var router = require("express").Router();
 // grab the local api folder
 var apiRoutes = require("./api");
-// handlebars
 var viewRoutes = require("./view");
 
 // use the routes
