@@ -1,3 +1,5 @@
+"use strict";
+
 //create the router
 var router = require("express").Router();
 // grab the local api folder

@@ -1,3 +1,5 @@
+"use strict";
+
 // Require all dependencies
 var express = require("express");
 var exphbs = require("express-handlebars");
